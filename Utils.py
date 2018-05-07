@@ -98,7 +98,7 @@ class Helper:
         return simple_distance(hypo_root, text_root, return_operations=True)
 
     # Process one pair of hypothesis and text
-    def process(self, hypo: str, text: str):
+    def classify(self, hypo: str, text: str):
         score = []
 
         hypo = hypo.replace("'s", "")
